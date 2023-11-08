@@ -1,4 +1,5 @@
 
+/*Checks where the mouse is on the screen */
 document.addEventListener("mousemove", updateDisplay, false);
 
 /*Checks whenever it should close or open the navbar */
