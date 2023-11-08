@@ -4,7 +4,7 @@ document.addEventListener("mousemove", updateDisplay, false);
 
 /*Checks whenever it should close or open the navbar */
 function updateDisplay(event) {
-    if(event.x <= 10) {
+    if(event.x <= 50) {
         openNav();
     } else if( event.x >= 251) {
         closeNav();
