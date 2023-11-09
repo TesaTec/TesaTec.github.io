@@ -40,3 +40,7 @@ text-align: center;
     width: 100%;
     padding-right: 5px;
 }
+
+#aboutMe h1 {
+ text-align: center;
+}
