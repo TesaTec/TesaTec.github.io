@@ -3,5 +3,6 @@ var autoPlayVideo = document.getElementById("onScreencapVideo");
         autoPlayVideo.muted = true;
         autoPlayVideo.play();
         autoPlayVideo.pause();
+        autoPlayVideo.muted = false;
         autoPlayVideo.play();
     }
